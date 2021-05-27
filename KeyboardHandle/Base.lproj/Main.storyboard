@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ymq-nC-ekq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ymq-nC-ekq">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bJ-cJ-uK6">
-                                <rect key="frame" x="0.0" y="562" width="414" height="300"/>
+                                <rect key="frame" x="0.0" y="576" width="414" height="320"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="使用者帳號" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-hq-DJF">
                                         <rect key="frame" x="16" y="81" width="382" height="50"/>
@@ -63,7 +63,7 @@
                                     <constraint firstItem="hkU-lF-hhh" firstAttribute="leading" secondItem="7bJ-cJ-uK6" secondAttribute="leading" constant="16" id="cyl-UR-9R6"/>
                                     <constraint firstItem="Paj-eO-Xvb" firstAttribute="leading" secondItem="7bJ-cJ-uK6" secondAttribute="leading" id="diX-PG-ier"/>
                                     <constraint firstItem="6FY-H2-Vg5" firstAttribute="top" secondItem="hkU-lF-hhh" secondAttribute="bottom" constant="30" id="g0b-Gw-X7q"/>
-                                    <constraint firstAttribute="height" constant="300" id="hzP-5v-qE6"/>
+                                    <constraint firstAttribute="height" constant="320" id="hzP-5v-qE6"/>
                                     <constraint firstAttribute="trailing" secondItem="6FY-H2-Vg5" secondAttribute="trailing" constant="16" id="iLI-aN-Ys4"/>
                                     <constraint firstAttribute="trailing" secondItem="Paj-eO-Xvb" secondAttribute="trailing" id="nHk-8H-nYS"/>
                                     <constraint firstItem="Paj-eO-Xvb" firstAttribute="top" secondItem="7bJ-cJ-uK6" secondAttribute="top" constant="30" id="vrk-bj-Vgy"/>
@@ -73,7 +73,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7bJ-cJ-uK6" secondAttribute="bottom" id="DqI-d5-fhK"/>
+                            <constraint firstAttribute="bottom" secondItem="7bJ-cJ-uK6" secondAttribute="bottom" id="DqI-d5-fhK"/>
                             <constraint firstItem="7bJ-cJ-uK6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X1W-ki-Xaa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7bJ-cJ-uK6" secondAttribute="trailing" id="pgL-Pj-FNh"/>
                         </constraints>

@@ -30,6 +30,19 @@ class ViewController: UIViewController {
         accountTextField.delegate = self
         passwordTextField.delegate = self
         
+        textFieldSetting()
+    }
+    
+    func textFieldSetting() {
+        if #available(iOS 12.0, *) {
+            accountTextField.textContentType = .oneTimeCode
+            passwordTextField.textContentType = .oneTimeCode
+        } else {
+            accountTextField.textContentType = .init(rawValue: "")
+            passwordTextField.textContentType = .init(rawValue: "")
+        }
+        
+        passwordTextField.isSecureTextEntry = true
     }
 
     @objc func keyboardWillShow(notification: NSNotification) {
